@@ -1,0 +1,24 @@
+.list-item {
+  border: 1px solid darken($off-white, 7%);
+  color: $dark-grey;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: $s-size;
+  text-decoration: none;
+  width: 50%;
+}
+
+.list-item__data {
+  margin: $s-size 0 0 0;
+}
+
+.list-item__avatar {
+  border-radius: 50%;
+  margin-right: $m-size;
+}
+
+.list-title {
+  margin: $l-size auto;
+  text-align: center;
+}

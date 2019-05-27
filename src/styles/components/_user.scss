@@ -1,0 +1,14 @@
+.content-user_info {
+  
+  flex-direction: column;
+  margin: 0 auto;
+  padding: $s-size;
+  text-decoration: none;
+  width: 50%;
+}
+
+.content-user__avatar {
+  max-width: 200px;
+  border-radius: 50%;  
+  margin-bottom: $l-size;
+}
